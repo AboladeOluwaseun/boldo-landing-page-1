@@ -192,6 +192,7 @@ export const blogs = [
 
 export const footerLinks = [
   {
+    key:'1',
     title: "Landings",
     links: [
       {
@@ -209,6 +210,7 @@ export const footerLinks = [
     ],
   },
   {
+    key:'2',
     title: "Company",
     links: [
       {
@@ -226,6 +228,7 @@ export const footerLinks = [
     ],
   },
   {
+    key:'3',
     title: "Resources",
     links: [
       {
