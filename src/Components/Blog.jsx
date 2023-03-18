@@ -29,7 +29,7 @@ const Blog = () => {
             );
           })}
         </div>
-        <div className="mt-[5.25rem]">
+        <div >
           <Button type={"Blog"} style={buttonStyle.whiteButton} />
         </div>
     </div>
