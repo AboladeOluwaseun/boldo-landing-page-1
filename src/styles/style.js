@@ -33,6 +33,7 @@ const styles = {
   export const buttonStyle ={
         heroButton: 'bg-darkBlue active:bg-mainGreen border-white active:border-none text-white active:text-darkBlue',
         darkBlueButton: 'bg-darkBlue active:bg-white border-darkBlue active:border-darkBlue text-white active:text-darkBlue',
+        darkGreenButton: 'bg-mainGreen active:bg-darkBlue border-mainGreen active:border-white text-darkBlue active:text-white',
         whiteButton: 'bg-white active:bg-darkBlue border-darkBlue active:border-none text-darkBlue active:text-white'
   }
   export const colors={

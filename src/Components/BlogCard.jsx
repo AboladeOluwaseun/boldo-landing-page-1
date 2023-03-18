@@ -7,7 +7,7 @@ const BlogCard = ({ date, author, authorImg, blogImg, content, index }) => {
     <div
       className={`flex flex-col gap-[1.75rem] max-w-[298px] mr-0 md:${
         index !== 2 ? "mr-[6rem]" : "mr-0"
-      } cursor-pointer`}
+      } cursor-pointer min-h-[424px]`}
     >
       <Image src={blogImg} alt="" />
       <div className="flex flex-col gap-[1.75rem]">
@@ -16,7 +16,7 @@ const BlogCard = ({ date, author, authorImg, blogImg, content, index }) => {
             <p className="font-[700] text-darkBlue">Category</p>{" "}
             <p className="text-Gray">{date}</p>
           </div>
-          <p className="text-darkBlue text-[20px]">{content}</p>
+          <p className="text-Gray text-[20px]">{content}</p>
         </div>
 
         <div className="flex items-center gap-5 ">
