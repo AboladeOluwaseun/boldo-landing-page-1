@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(3);
   return (
-    <nav className="w-full flex py-6 justify-between items-center">
+    <nav className="w-full relative z-[5]  flex py-6 justify-between items-center">
       <Image className="w-[10rem] h-[2.6rem]" src={boldo01} alt="logo" />
       <ul className="ist-none  justify-end items-center flex-1 list-none hidden text-white sm:flex">
         {navLinks.map((nav, index) => (

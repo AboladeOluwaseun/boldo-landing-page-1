@@ -1,14 +1,16 @@
 import React from "react";
 import { Button } from "../Components";
 import styles, { buttonStyle } from "@/styles/style";
+import Image from "next/image";
+import ellipseBlue02 from '../../public/assets/ellipseBlue02.png'
 
 const CTA = () => {
   return (
     <div
-      className={` ${styles.flexCenter}  my-12 md:my-[7.75rem] xl:px-0 rounded-md bg-darkBlue`}
+      className={` ${styles.flexCenter} relative my-12 md:my-[7.75rem] xl:px-0 rounded-md bg-darkBlue`}
     >
       <div className={`flex-1 flex max-w-full flex-col items-start sm:items-center py-12 md:py-[4.5rem] gap-12 px-16 sm:px-10 md:px-48 xl:px-0`}>
-        <h1 className={` text-[36px] sm:text-[48px] sm:font-[700] max-w-[842px] text-start sm:text-center text-white`}>
+        <h1 className={` text-[36px] sm:text-[48px] relative z-[5] sm:font-[700] max-w-[842px] text-start sm:text-center text-white`}>
           An enterprise template to ramp up your company website
         </h1>
 
@@ -26,6 +28,7 @@ const CTA = () => {
           <Button type={"Start now"} style={buttonStyle.darkGreenButton} />
         </form>
       </div>
+      <div className="absolute top-[0px]  right-[0px] "><Image src={ellipseBlue02}/></div>
     </div>
   );
 };

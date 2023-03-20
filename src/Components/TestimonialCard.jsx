@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-const TestimonialCard = ({ content, name, title, img }) => (
-  <div className="flex justify-between items-start gap-[2.5rem] flex-col px-10 py-8 max-w-[350px]  min-h-[322px] bg-white rounded-md">
+const TestimonialCard = ({ content, name, title, img, index }) => (
+  <div className={`flex justify-between items-start gap-[2.5rem] flex-col px-10 py-8 max-w-[350px]  min-h-[322px] bg-white rounded-md hover:md:scale-[1.2] `}>
     <p className="text-[1.5rem] ">{content}</p>
     <div className="flex items-center gap-4 ">
       <div>

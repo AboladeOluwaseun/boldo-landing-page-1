@@ -16,9 +16,9 @@ const Testimonial = () => {
         <h1 className={`${styles.heading3}  max-w-[625px] text-white`}>
           An enterprise template to ramp up your company website
         </h1>
-        <div className="flex flex-wrap justify-center w-full gap-[1.4rem] relative">
+        <div className={`flex flex-wrap justify-center w-full gap-3 md:gap-[5rem] relative `}>
           {feedback.map((feedback, index) => {
-            return <TestimonialCard key={feedback.id} {...feedback} />;
+            return <TestimonialCard key={feedback.id} {...feedback} index={index} />;
           })}
         </div>
       </div>
