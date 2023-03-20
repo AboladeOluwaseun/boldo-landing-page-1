@@ -1,8 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Name
 
-## Getting Started
+Boldo Landing Page
 
-First, run the development server:
+Landing page for a business company
+
+Live demo [_here_](https://boldo-landing-page-1.vercel.app/)
+![Example screenshot](public/assets/demoscreenshot.jpg)
+
+## Table of Contents
+
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Setup](#setup)
+
+
+## General Information
+
+Landing Page for Boldo; A business enterprise.
+
+## Technologies Used
+
+- ReactJs - version 18.2.0
+- NextJs - version 13.2.4
+- Tailwind CSS - version 3.2.7
+
+## Features
+
+- Display important information about the company
+- Contains the Navigation section with buttons that routes to other pages
+- Contains a Call to Action (CTA) section to help get customers started in using the company's product
+
+
+## Setup
+
+This project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ```bash
 npm run dev
@@ -34,5 +66,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
